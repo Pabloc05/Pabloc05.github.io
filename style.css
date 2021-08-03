@@ -1,0 +1,48 @@
+body{
+  font-family: 'Press Start 2P', cursive;
+background: url("https://i.pinimg.com/originals/8e/fe/58/8efe58229c1d83b1cac921a21a1721ae.gif");
+background-size: 100%;
+color: darkorchid; 
+background-color:black;
+text-align: center;
+text-color: darkorchid;
+}
+h1{
+  text-align:center;
+  color:darkorchid;
+  font-size:50px;
+}
+h2{
+color:darkorchid;
+text-align:center;
+font-size: 20px;
+}
+.transparent-background{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+}
+body{
+  font-family: 'Press Start 2P', cursive;
+}
+p{
+  color: darkorchid;
+  font-size:25px
+}
+.purple{
+  background-color:plum; 
+}
+img{
+  width: 100%
+}
+form{
+  color:darkorchid
+}
+input{
+  color:darkorchid;
+  background-color: aquamarine;
+}
+button{
+  color: darkorchid;
+  background-color: aquamarine;
+}
