@@ -6,14 +6,12 @@ function getFormvalue(){
    p.style.fontSize = "40px"
     
 }
-var audio = new Audio("super-saiyan.mp3");
+var x = document.getElementById("myAudio"); 
 
-audio.oncanplaythrough = function(){
-audio.play();
-}
+function playAudio() { 
+  x.play(); 
+} 
 
-audio.loop = true;
-
-audio.onended = function(){
-audio.play();
+function pauseAudio() { 
+  x.pause(); 
 }
