@@ -22,7 +22,13 @@ Last name: <input type="text" id="lname" value="Vert"><br>
     <a href="contact.html">About Pablo</a>
     <a href="Art.html">Art Portfolio</a>
     <a href="https://open.spotify.com/playlist/3ntTrtFFSbjX8rI0vYS7e4?si=NrZ5MHjVQq2OH8VupgiTNQ&dl_branch=1">My Spotify Playlist</a>
-    <input type="button" value="CLICK ME!" onclick="audio.play()">
+    <audio id="myAudio">
+  <source src="super-saiyan.mp3" type="super-saiyan.mp3">
+  <source src="super-saiyan.mp3" type="super-saiyan.mp3">
+  Your browser does not support the audio element.
+</audio>
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button>
     
     </div>
   </body>
